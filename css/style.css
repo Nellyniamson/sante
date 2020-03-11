@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Pacifico&display=swap');
+
+:root{
+    --color-white: white;
+    --color-primary:#75DAAD;
+    --color-secondary:#BAF1A1;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Pacifico', cursive;
+}
+
+p,span{
+    font-family: 'Arapey', serif;
+}
+
+/*********************nav bar**************/
+/**********************************************************/
+
+.Nav{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 0;
+    position: relative;
+    padding: 10px 50px;
+}
+
+.navbar-brand{
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.imgN{
+    height: 4rem;
+}
+
+.nav-bar_nav ul{
+    padding: 2rem;
+}
+
+.nav-bar_nav ul li {
+    padding: 0 2rem;
+}
+
+.nav-bar_nav ul li a{
+    font-size: 1.5rem;
+    transition: all .3s ease;
+}
+
+.nav-bar_nav ul li a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.green{
+    color: var(--color-primary);
+}
+
+/*********************header**************/
+/**********************************************************/
+
+header{
+    position: relative;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/PEDIATRIE-GENERALE.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title h1
+{
+    font-size: 7rem;
+    padding:8rem 6rem 0;
+    color: white;
+}
+
+.title h2
+{
+    font-size: 6rem;
+    padding-left:  10rem;
+    color: var(--color-secondary);
+}
+
+.title p
+{
+    font-size: 4rem;
+    padding: 8rem 10rem;
+    color: white;
+}
+
+/*********************section1**************/
+/**********************************************************/
+
+.row{
+    margin-top: 6rem;
+}
+
+.imgA{
+    height: 60rem;
+    width: 100%;
+    object-fit: contain;
+}
+
+.part-left_row h3{
+    font-size: 3rem;
+    padding:2rem;
+    color:var(--color-primary);
+    text-decoration: underline;
+}
+
+.part-left_row p{
+    font-size: 1.5rem;
+}
+
+.part-right_row h3{
+    font-size: 3rem;
+    padding:2rem;
+    color:var(--color-primary);
+}
+
+.part-right_row p{
+    font-size: 2rem;
+    color: #858585;
+}
+
+
+/*********************section2**************/
+/**********************************************************/
+
+.section2{
+    margin-top:4rem;
+}
+
+.services h1{
+    font-size: 6rem;
+    color:var(--color-primary);
+}
+
+.info p{
+    font-size: 2rem;
+    color: #858585;
+}
+
+.info h3{
+    font-size: 3rem;
+    padding:2rem;
+    color:var(--color-primary);
+    text-align: center;
+}
+
+.imgS{
+    height: 30rem;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+/*********************section3**************/
+/**********************************************************/
+
+.services1 h1{
+    font-size: 3rem;
+    padding:2rem;
+    color:var(--color-primary);
+    text-decoration: underline;
+}
+
+.team{
+    margin-top: 13rem;
+}
+
+.team p{
+    font-size: 2rem;
+    color: #858585;
+}
+
+
+.circle-team1{
+    height: 40rem;
+    width: 20rem;
+    border-radius: .5rem;
+    border: 1px solid var(--color-primary);
+    margin-left: 2.4rem;
+    background-image: url(../image/adult-biology-chemical-chemist-356040.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+}
+
+
+.circle-team1:hover{
+    transform: scale(1.1);
+}
+
+.circle-team2{
+    height: 40rem;
+    width: 20rem;
+    border-radius: .5rem;
+    border: 1px solid var(--color-primary);
+    margin-left: 2.4rem;
+    background-image: url(../image/photo-of-woman-wearing-stethoscope-3408367.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+}
+
+
+.circle-team2:hover{
+    transform: scale(1.1);
+}
+
+.circle-team3{
+    height: 40rem;
+    width: 20rem;
+    border-radius: .5rem;
+    border: 1px solid var(--color-primary);
+    margin-left: 2.4rem;
+    background-image: url(../image/photo-of-woman-leaning-on-wall-3408365.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+}
+
+
+.circle-team3:hover{
+    transform: scale(1.1);
+}
+
+.circle-team4{
+    height: 40rem;
+    width: 20rem;
+    border-radius: .5rem;
+    border: 1px solid var(--color-primary);
+    margin-left: 2.4rem;
+    background-image: url(../image/close-up-photography-of-a-woman-3755913.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+}
+
+
+.circle-team4:hover{
+    transform: scale(1.1);
+}
+
+.brow{
+    margin-top: 6rem;
+}
+
+.team1 h2{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-decoration: underline ;
+}
+
+.team1 p{
+    color: var(--color-black);
+    font-size: 2rem;
+}
+
+
+.team h4{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 2rem;
+    text-decoration: underline ;
+    margin-top: 2rem;
+}
+
+/*********************section4**************/
+/**********************************************************/
+
+.section4{
+    margin-top:4rem;
+}
+
+.section4 h2{
+    margin-bottom:4rem;
+}
+
+.carousel img{
+    height: 40rem;
+    object-fit: cover;
+}
+
+.carousel-caption h5{
+    color: white;
+    font-size: 3rem;
+    text-decoration: underline ;
+}
+
+.carousel-caption p{
+    font-size: 2rem;
+}
+
+/*********************footer**************/
+/**********************************************************/
